@@ -1,0 +1,144 @@
+
+
+
+body {
+    color: white;
+    font-family: 'Istok Web', sans-serif;
+    background-image:url("Sunset_may_2006_panorama.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+div.thingcontainer {
+    height: 20%;
+}
+
+div.thing {
+    margin-bottom: 25px;
+    display:none;
+    width: 100%;
+    font-size:24px;
+    text-align:center;
+}
+
+.thing p {
+    display:inline;
+}
+
+input {
+    display: inline;
+    background: transparent;
+    border: 1px dotted white;
+    border-radius: 3px;
+    width: 50%;
+    color: white;
+    font-size: 24px;
+}
+
+h1 {
+    background-color:#e0e0e0;
+    font-family: "Droid Sans";
+    font-weight:700;
+    opacity: 0.6;
+    color:#000000;
+    border-radius: 3px;
+    text-align: center;
+    width:95%;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#submit {
+    display:none;
+    background-color:#e0e0e0;
+    opacity: 0.6;
+    color:#000000;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3px 5px 0px 5px;
+    font-size: 24px;
+    width: 50px;
+}
+
+#submit:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+.after {
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+footer {
+    margin-top: 55px;
+    display:none;
+    text-align:center;
+}
+
+header {
+    margin-top:25px;
+    margin-bottom: 50px;
+    text-align:center;
+}
+
+div.bottom li {
+    font-family: 'Droid Sans', sans-serif;
+    padding: 4px;
+    display:inline;
+    margin:5px 5%;
+    font-size: 18px;
+    background-color:#e0e0e0;
+    opacity: 0.5;
+    color:#000000; 
+    border-radius: 3px;   
+}
+
+div.bottom #line {
+    border:none;
+    background-color: transparent;
+}
+
+div.bottom li:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+div.bottom ul {
+    text-align:center;
+}
+
+div.infocontainer {
+    margin-top: 100px;
+    height:150px;
+}
+
+.infocontainer p {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8px;
+    display:none;
+    text-align: center;
+    width: 70%;
+    background-color:#e0e0e0;
+    opacity: 0.6;
+    color:#000000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#thefacebook {
+    position:fixed;
+    right:5px;
+    top:845px;
+    color:#4f4f4f;
+    font-size: 7px;
+    font-family: Verdana;
+}
